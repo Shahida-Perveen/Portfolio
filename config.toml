@@ -1,0 +1,60 @@
+baseurl         = "https://shahidaperveen.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = " Shahida Perveen"
+  subtitle    = "Reflections of a Big Little Girl"
+
+  cover       = "Coverphoto.jpg"
+  description = "My first venture into the internet world."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "Mrs_Spali"
+  fbName = "ShahidaPerveenAli"
+  githubName = "Shahida-Perveen"
+
+  logo = ""
+  orgName = "Shahida Perveen"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Shahida Perveen"
+  authorAvatar = "Shahida.png"
+  authorLocation = "Jeddah, KSA"
+  authorWebsite = "https://github.com/Shahida-Perveen/Tangy"
+  authorDescription = "Masters second year student of Digital Humanities"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/Projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "My Life"
+  url = "/categories/Life/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
